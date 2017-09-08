@@ -22,6 +22,9 @@ security:
   sessions: NEVER
 
 spring:
+  sleuth:
+    sampler:
+      percentage: 1
   zipkin:
     base-url: 'http://zipkin:7411/'
-    enabled: false
+    enabled: true

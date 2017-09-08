@@ -30,11 +30,7 @@
         <!--zipkin服务追踪分析-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-sleuth</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
     </dependencies>
 

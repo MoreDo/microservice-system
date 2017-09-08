@@ -32,8 +32,6 @@ spring:
     loadbalancer:
       retry:
         enabled: true
-  zipkin:
-    base-url: 'http://zipkin:7411/'
 
 hystrix:
   command:
