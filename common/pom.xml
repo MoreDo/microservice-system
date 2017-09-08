@@ -18,6 +18,7 @@
         <module>redis</module>
         <module>validator</module>
         <module>oauth</module>
+        <module>mongo</module>
     </modules>
 
     <packaging>pom</packaging>
