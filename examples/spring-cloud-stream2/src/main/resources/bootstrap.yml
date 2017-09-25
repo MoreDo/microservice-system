@@ -1,7 +1,7 @@
 spring:
   application:
     name: spring-cloud-stream2
-    index: ${INSTANCE_INDEX}
+#    index: ${INSTANCE_INDEX}
   cloud:
     config:
       uri: http://config:8888
